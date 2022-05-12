@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@keyframes mymove{
+  from {left: 30px;}
+  to {left: 300px;}
+}
+  .title {
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    animation: mymove 5s infinite;
+    position: relative;
+    text-transform: uppercase;
+  } 
+
+  
+
+
+  img {
+    padding: 2px;
+    margin: 2px;
+    width:  200px;
+    height: 200px;
+    border-radius: 25% 10%;
+  }
+  .vid {
+    padding: 2px;
+    margin: 10px;
+  }
+
